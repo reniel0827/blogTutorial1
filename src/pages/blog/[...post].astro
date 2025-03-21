@@ -15,8 +15,6 @@ export async function getStaticPaths() {
 		props: { post: entry },
 	}));
 }
-const posts = await getCollection("blog");
-posts.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
