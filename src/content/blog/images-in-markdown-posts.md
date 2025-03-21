@@ -6,7 +6,7 @@ date: 2024-06-08T15:27:34.591Z
 image: src/assets/images/blog/4p2a1864-copy.jpg
 imageAlt: Bathroom
 tags:
-  - post
+  - slug
   - featured
 ---
 
